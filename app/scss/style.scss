@@ -1,7 +1,6 @@
 @import 'vars';
 @import 'fonts';
 @import 'global';
-@import 'libs';
 @import 'reset';
 
 
@@ -19,6 +18,7 @@
 .menu {
   &__list {
     display: flex;
+   
 
   }
 
@@ -54,7 +54,7 @@
     position: relative;
   }
 
-  &__link+.user-nav__link {
+  &__link + .user-nav__link {
     padding-left: 25px;
   }
 
@@ -72,8 +72,6 @@
     color: #fff;
   }
 }
-
-
 
 footer {
   background-color: $bg;
@@ -185,6 +183,7 @@ footer {
     cursor: pointer;
   } 
 }
+
 .footer-bottom{
   height: 75px;
   display: flex;
@@ -198,6 +197,10 @@ footer {
     vertical-align: middle;
   }
 }
+
+
+
+
 
 
 
