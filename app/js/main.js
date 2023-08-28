@@ -1,7 +1,4 @@
 $(function(){
-
-
-
   $('.top-slider__inner').slick({
    dots: true,
    arrows: false,
@@ -10,8 +7,5 @@ $(function(){
    autoplaySpeed: 2000
  
  });
-
-
-
 
 });

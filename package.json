@@ -20,5 +20,8 @@
   },
   "author": "Anibondiana",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.22"
+  }
 }
